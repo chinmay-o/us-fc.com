@@ -1,0 +1,41 @@
+
+
+.header__logo img {
+
+  width: 90px;
+}
+
+.header.is-sticky {
+
+  height: 7.25rem;
+}
+
+.backButton {
+
+  width: 3rem !important;
+  height: 3rem !important;
+}
+
+.custom-product-img {
+
+  width: 100% !important;
+}
+
+.customHeading__title {
+
+  margin-left: 0 !important;
+}
+
+@media (max-width: 767px) {
+
+  .header {
+
+      position: relative;
+      height: 2.25rem;
+  }
+
+  .header__bar {
+
+    height: 90px;
+  }
+}
