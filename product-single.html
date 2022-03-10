@@ -75,10 +75,10 @@
         <div class="header__bar">
           <div class="overflow-hidden">
             <div class="header__logo js-header-logo">
-              <a data-barba href="home-1.html">
+              <a data-barba href="javascript:location.replace(location.origin)">
                 <img class="header__logo__light" src="/img/usfc/logo.png" alt="logo">
               </a>
-              <a data-barba href="home-1.html">
+              <a data-barba href="javascript:location.replace(location.origin)">
                 <img class="header__logo__dark" src="/img/usfc/logo.png" alt="logo">
               </a>
             </div>
@@ -87,25 +87,25 @@
           <div class="navClassic-wrap js-header-menu-classic">
             <ul class="navClassic-list js-navClassic-list">
               <li>
-                <a data-barba href="home-1-classic.html">
+                <a data-barba href="javascript:location.replace(location.origin)">
                   Home
                 </a>
               </li>
 
               <li>
-                <a data-barba href="home-1-classic.html">
+                <a data-barba href="products.html">
                   Products
                 </a>
               </li>
 
               <li>
-                <a data-barba href="home-1-classic.html">
+                <a data-barba href="about.html">
                   About Us
                 </a>
               </li>
 
               <li>
-                <a data-barba href="home-1-classic.html">
+                <a data-barba href="contact.html">
                   Contact Us
                 </a>
               </li>
@@ -145,25 +145,25 @@
                   <div class="navList__wrap">
                     <ul class="navList js-navList">
                       <li>
-                        <a data-barba href="home-1-classic.html">
+                        <a data-barba href="javascript:location.replace(location.origin)">
                           Home
                         </a>
                       </li>
 
                       <li>
-                        <a data-barba href="home-1-classic.html">
+                        <a data-barba href="products.html">
                           Products
                         </a>
                       </li>
 
                       <li>
-                        <a data-barba href="home-1-classic.html">
+                        <a data-barba href="about.html">
                           About Us
                         </a>
                       </li>
 
                       <li>
-                        <a data-barba href="home-1-classic.html">
+                        <a data-barba href="contact.html">
                           Contact Us
                         </a>
                       </li>
@@ -244,7 +244,7 @@
                         <div class="masthead__item js-info-item">
                           <div class="js-button py-4">
                             <a href="#" class="button -md -black text-white">
-                              Order Now
+                              Book Now
                             </a>
                           </div>
                         </div>
@@ -259,16 +259,8 @@
         </div>
         <!-- masthead__content end -->
 
-        <!-- container start -->
-        <div class="container-wide z-5 relative">
-          <div data-parallax="0.7" class="h-lg z-5 js-image">
-            <div data-parallax-target class="bg-image js-lazy" data-bg="img/projects/horizontal/1.jpg"></div>
-          </div>
-        </div>
-        <!-- container end -->
       </section>
       <!-- section end -->
-
 
       <!-- section start -->
       <section class="layout-pt-lg layout-pb-lg"></section>
@@ -281,15 +273,15 @@
           <div class="swiper-wrapper">
 
             <div class="swiper-slide slider-slide">
-              <div class="ratio ratio-3:2 bg-image swiper-lazy" data-background="img/project1/slider-1.jpg"></div>
+              <div class="ratio ratio-3:2 bg-image swiper-lazy" data-background="img/usfc/slider01.jpg"></div>
             </div>
 
             <div class="swiper-slide slider-slide">
-              <div class="ratio ratio-3:2 bg-image swiper-lazy" data-background="img/project1/slider-2.jpg"></div>
+              <div class="ratio ratio-3:2 bg-image swiper-lazy" data-background="img/usfc/slider01.jpg"></div>
             </div>
 
             <div class="swiper-slide slider-slide">
-              <div class="ratio ratio-3:2 bg-image swiper-lazy" data-background="img/project1/slider-3.jpg"></div>
+              <div class="ratio ratio-3:2 bg-image swiper-lazy" data-background="img/usfc/slider01.jpg"></div>
             </div>
 
           </div>
@@ -399,55 +391,30 @@
 
             <div class="col-xl-10 mt-48 sm:mt-32">
               <div class="contact-form -type-1">
-                <form class="row x-gap-40 y-gap-32 js-ajax-form" method="POST" action="../../external.html?link=http://stukram.mikhailmasterov.com/html/contact.php" data-message-success="Your message has been sent! We will reply you as soon as possible." data-message-error="Something went wrong. Please contact us directly at <a href='hello%40stukram.html'>hello@stukram.com</a>.">
+                <form class="row x-gap-40 y-gap-32" id="contact-form-main">
                   <div class="col-lg-6">
                     <label class="js-input-group">
-                      Name
-                      <input type="text" name="name" data-required placeholder="Fill in your name">
+                      Name*
+                      <input type="text" name="Name" data-required placeholder="Fill in your name">
                       <span class="form__error"></span>
                     </label>
                   </div>
 
                   <div class="col-lg-6">
                     <label class="js-input-group">
-                      Your phone number (optional)
-                      <input type="text" name="phone" placeholder="Phone number">
-                      <span class="form__error"></span>
-                    </label>
-                  </div>
-
-                  <div class="col-lg-6">
-                    <label class="js-input-group">
-                      Email
-                      <input type="text" name="email" data-required placeholder="Fill in your email">
-                      <span class="form__error"></span>
-                    </label>
-                  </div>
-
-                  <div class="col-lg-6">
-                    <label class="js-input-group">
-                      Subject
-                      <input type="text" name="subject" placeholder="What are you looking for?">
+                      Your phone number*
+                      <input type="text" name="Phone" placeholder="Phone number">
                       <span class="form__error"></span>
                     </label>
                   </div>
 
                   <div class="col-12">
-                    <label class="js-input-group">
-                      Message
-                      <textarea name="message" rows="2" placeholder="Fill in your message"></textarea>
-                      <span class="form__error"></span>
-                    </label>
-                  </div>
-
-                  <div class="col-12 ajax-form-alert js-ajax-form-alert">
-                    <div class="ajax-form-alert__content">
-                    </div>
+                    <div class="custom-form-alert"></div>
                   </div>
 
                   <div class="col-12">
-                    <button class="button -md -black text-white">
-                      Send Message
+                    <button type="submit" class="button -md -black text-white">
+                      Get a Call Back
                     </button>
                   </div>
                 </form>
@@ -469,7 +436,7 @@
             <!-- row start -->
             <div class="row y-gap-48 justify-content-between">
               <div class="col-lg-auto col-sm-12">
-                <a href="home-1.html" class="footer__logo text-white">
+                <a href="javascript:location.replace(location.origin)" class="footer__logo text-white">
                   <img width="100" class="header__logo__light" src="/img/usfc/footer-logo.png" alt="logo">
                 </a>
               </div>
@@ -546,8 +513,10 @@
   <!-- barba container end -->
 
   <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="js/vendors.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/forms.js"></script>
 
 </body>
 </html>
